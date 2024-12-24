@@ -1,0 +1,239 @@
+local mainwindow = Instance.new("ScreenGui")
+local mainwindow2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local KeyCheck = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local KeyLink = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local DiscordInvite = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local CheckKey = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Close = Instance.new("ImageButton")
+local UICorner_6 = Instance.new("UICorner")
+local Minimize = Instance.new("ImageButton")
+local UICorner_7 = Instance.new("UICorner")
+local Note = Instance.new("TextLabel")
+
+--Properties:
+
+mainwindow.Name = "mainwindow"
+mainwindow.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+mainwindow.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+mainwindow2.Name = "mainwindow2"
+mainwindow2.Parent = mainwindow
+mainwindow2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+mainwindow2.BackgroundTransparency = 0.500
+mainwindow2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainwindow2.BorderSizePixel = 0
+mainwindow2.Position = UDim2.new(0.34710744, 0, 0.369668245, 0)
+mainwindow2.Size = UDim2.new(0, 369, 0, 219)
+
+UICorner.Parent = mainwindow2
+
+KeyCheck.Name = "KeyCheck"
+KeyCheck.Parent = mainwindow2
+KeyCheck.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KeyCheck.BackgroundTransparency = 0.500
+KeyCheck.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KeyCheck.BorderSizePixel = 0
+KeyCheck.Position = UDim2.new(0.130081296, 0, 0.424657524, 0)
+KeyCheck.Size = UDim2.new(0, 273, 0, 33)
+KeyCheck.Font = Enum.Font.SourceSans
+KeyCheck.PlaceholderText = "Enter Key"
+KeyCheck.Text = ""
+KeyCheck.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyCheck.TextSize = 14.000
+
+UICorner_2.Parent = KeyCheck
+
+KeyLink.Name = "KeyLink"
+KeyLink.Parent = mainwindow2
+KeyLink.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KeyLink.BackgroundTransparency = 0.500
+KeyLink.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KeyLink.BorderSizePixel = 0
+KeyLink.Position = UDim2.new(0.130081296, 0, 0.168949768, 0)
+KeyLink.Size = UDim2.new(0, 128, 0, 33)
+KeyLink.Font = Enum.Font.SourceSans
+KeyLink.Text = "Copy Key Link"
+KeyLink.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyLink.TextSize = 14.000
+
+UICorner_3.Parent = KeyLink
+
+DiscordInvite.Name = "DiscordInvite"
+DiscordInvite.Parent = mainwindow2
+DiscordInvite.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DiscordInvite.BackgroundTransparency = 0.500
+DiscordInvite.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DiscordInvite.BorderSizePixel = 0
+DiscordInvite.Position = UDim2.new(0.523035228, 0, 0.168949768, 0)
+DiscordInvite.Size = UDim2.new(0, 128, 0, 33)
+DiscordInvite.Font = Enum.Font.SourceSans
+DiscordInvite.Text = "Copy Discord Invite"
+DiscordInvite.TextColor3 = Color3.fromRGB(255, 255, 255)
+DiscordInvite.TextSize = 14.000
+
+UICorner_4.Parent = DiscordInvite
+
+CheckKey.Name = "CheckKey"
+CheckKey.Parent = mainwindow2
+CheckKey.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CheckKey.BackgroundTransparency = 0.500
+CheckKey.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CheckKey.BorderSizePixel = 0
+CheckKey.Position = UDim2.new(0.130081296, 0, 0.698630154, 0)
+CheckKey.Size = UDim2.new(0, 273, 0, 33)
+CheckKey.Font = Enum.Font.SourceSans
+CheckKey.Text = "Check Key"
+CheckKey.TextColor3 = Color3.fromRGB(255, 255, 255)
+CheckKey.TextSize = 14.000
+
+UICorner_5.Parent = CheckKey
+
+Close.Name = "Close"
+Close.Parent = mainwindow2
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.929539323, 0, 0, 0)
+Close.Size = UDim2.new(0, 26, 0, 25)
+Close.Image = "rbxthumb://type=Asset&id=9545003274&w=150&h=150"
+
+UICorner_6.Parent = Close
+
+Minimize.Name = "Minimize"
+Minimize.Parent = mainwindow2
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.BackgroundTransparency = 1.000
+Minimize.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Minimize.BorderSizePixel = 0
+Minimize.Position = UDim2.new(0.859078586, 0, 0, 0)
+Minimize.Size = UDim2.new(0, 26, 0, 25)
+Minimize.Image = "rbxthumb://type=Asset&id=8874551446&w=150&h=150"
+
+UICorner_7.Parent = Minimize
+
+Note.Name = "Note"
+Note.Parent = mainwindow2
+Note.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Note.BackgroundTransparency = 1.000
+Note.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Note.BorderSizePixel = 0
+Note.Position = UDim2.new(0.130081296, 0, 0.575342476, 0)
+Note.Size = UDim2.new(0, 273, 0, 14)
+Note.Font = Enum.Font.Jura
+Note.Text = "Press enter after you have entered the key"
+Note.TextColor3 = Color3.fromRGB(255, 255, 255)
+Note.TextSize = 14.000
+
+
+
+
+
+local UserInputService = game:GetService("UserInputService")
+local isMinimized = false
+local originalSize = mainwindow2.Size
+local originalPosition = mainwindow2.Position
+local originalButtonPositions = {
+    Minimize = Minimize.Position,
+    Close = Close.Position
+}
+
+local function MakeDraggable(DragFrame, object)
+    local Dragging = false
+    local DragStart = nil
+    local StartPosition = nil
+
+    local function Update(input)
+        local Delta = input.Position - DragStart
+        local NewPosition = UDim2.new(
+            StartPosition.X.Scale,
+            StartPosition.X.Offset + Delta.X,
+            StartPosition.Y.Scale,
+            StartPosition.Y.Offset + Delta.Y
+        )
+        object.Position = NewPosition
+    end
+
+    DragFrame.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            Dragging = true
+            DragStart = input.Position
+            StartPosition = object.Position
+
+            UserInputService.InputChanged:Connect(function(movementInput)
+                if Dragging and (movementInput.UserInputType == Enum.UserInputType.MouseMovement or movementInput.UserInputType == Enum.UserInputType.Touch) then
+                    Update(movementInput)
+                end
+            end)
+
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    Dragging = false
+                end
+            end)
+        end
+    end)
+end
+MakeDraggable(mainwindow2, mainwindow2)
+
+Minimize.MouseButton1Click:Connect(function()
+    if not isMinimized then
+        mainwindow2.Size = UDim2.new(0, 100, 0, 40) 
+
+        KeyCheck.Visible = false
+        KeyLink.Visible = false
+        DiscordInvite.Visible = false
+        CheckKey.Visible = false
+        Note.Visible = false
+
+        Minimize.Position = UDim2.new(0.1, 0, 0.2, 0)
+        Close.Position = UDim2.new(0.7, 0, 0.2, 0)
+
+        isMinimized = true
+    else
+        mainwindow2.Size = originalSize
+
+        KeyCheck.Visible = true
+        KeyLink.Visible = true
+        DiscordInvite.Visible = true
+        CheckKey.Visible = true
+        Note.Visible = true
+
+        Minimize.Position = originalButtonPositions.Minimize
+        Close.Position = originalButtonPositions.Close
+
+        isMinimized = false
+    end
+end)
+
+Close.MouseButton1Click:Connect(function()
+    mainwindow:Destroy()
+end)
+
+KeyLink.MouseButton1Click:Connect(function()
+    setclipboard("https://ads.luarmor.net/get_key?for=NutHub-CLkMskUOdcFX")
+    local originalText = KeyLink.Text
+    KeyLink.Text = "... Copied ..."
+    wait(1)
+    KeyLink.Text = originalText
+end)
+
+DiscordInvite.MouseButton1Click:Connect(function()
+    setclipboard("https://discord.gg/RBWHsYtbgJ")
+    local originalText = DiscordInvite.Text
+    DiscordInvite.Text = "... Copied ..."
+    wait(1)
+    DiscordInvite.Text = originalText
+end)
+
+CheckKey.MouseButton1Click:Connect(function()
+
+    script_key=KeyCheck.Text;
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/561ff452709c9a1729ddd0d1fc45cca0.lua"))()
+
+end)
